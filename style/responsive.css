@@ -1,0 +1,270 @@
+/* CSS for Responsive Design */
+
+/* For smaller devices, adjust padding and font sizes */
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 0 20px;
+    }
+    
+    .content {
+        padding: 0 20px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .section-title {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .about__wrapp {
+        flex-direction: column;
+    }
+
+    .about__img,
+    .about__txt {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .about__txt {
+        margin-top: 20px;
+    }
+
+    .about__p {
+        font-size: 18px;
+    }
+
+    .benefits__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits__item {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .benefits__num {
+        font-size: 40px;
+    }
+
+    .work__wrapp {
+        padding: 0 20px;
+    }
+
+    .work__item {
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+    }
+
+    .serv__item,
+    .serv__item-txt {
+        font-size: 30px;
+    }
+
+    .footer__div {
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+
+    .header__img {
+        width: 40%; /* Adjust width of header image for smaller screens */
+        right: 50px; /* Adjust right position of header image */
+    }
+
+    .header__img img {
+        object-fit: contain; /* Ensure the header image fits well on smaller screens */
+    }
+
+    .header__marq-wrapp {
+        padding: 8px 20px; /* Adjust padding for smaller screens */
+    }
+
+    .title {
+        font-size: 40px; /* Decrease font size for smaller screens */
+    }
+
+    .about__wrapp {
+        flex-direction: column; /* Stack about section content vertically on smaller screens */
+    }
+
+    .about__img,
+    .about__txt {
+        width: 100%; /* Ensure about section content takes full width on smaller screens */
+    }
+
+    .benefits__item {
+        width: 100%; /* Make benefits list items take full width on smaller screens */
+        margin-bottom: 20px; /* Add margin between benefits list items */
+    }
+
+    .work__wrapp {
+        padding: 0 20px; /* Adjust padding for smaller screens */
+    }
+
+    .serv__item {
+        padding: 20px 0; /* Add padding to service items */
+    }
+
+    .footer__div {
+        font-size: 40px; /* Decrease font size for footer text on smaller screens */
+        letter-spacing: 10px; /* Adjust letter spacing for footer text */
+    }
+}
+
+
+
+/* CSS for Responsive Design */
+
+/* For devices with a maximum width of 576px */
+@media only screen and (max-width: 576px) {
+    .header {
+        padding: 0 20px;
+    }
+    
+    .content {
+        padding: 0 20px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .about__wrapp {
+        flex-direction: column;
+    }
+
+    .about__img,
+    .about__txt {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .about__txt {
+        margin-top: 20px;
+    }
+
+    .about__p {
+        font-size: 16px;
+    }
+
+    .benefits__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits__item {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .benefits__num {
+        font-size: 30px;
+    }
+
+    .work__wrapp {
+        padding: 0 20px;
+    }
+
+    .work__item {
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+    }
+
+    .serv__item,
+    .serv__item-txt {
+        font-size: 24px;
+    }
+
+    .footer__div {
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .about__p {
+        font-size: 16px;
+    }
+
+    .benefits__num {
+        font-size: 30px;
+    }
+
+    .serv__item,
+    .serv__item-txt {
+        font-size: 24px;
+    }
+
+    .footer__div {
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+}
+
+
+
+/* CSS for Responsive Design */
+
+/* For devices with a maximum width of 480px */
+@media only screen and (max-width: 480px) {
+    .header {
+        padding: 0 10px;
+    }
+    
+    .content {
+        padding: 0 10px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .about__p {
+        font-size: 14px;
+    }
+
+    .benefits__num {
+        font-size: 24px;
+    }
+
+    .work__item {
+        margin-bottom: 40px;
+    }
+
+    .serv__item,
+    .serv__item-txt {
+        font-size: 20px;
+    }
+
+    .footer__div {
+        font-size: 24px;
+        letter-spacing: 3px;
+    }
+}
+
+
+
