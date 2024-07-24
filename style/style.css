@@ -1,7 +1,7 @@
 /* 1.1.general-setting-pages *************************/
 /****************************************************/
 :root {
-	--pr-color: #fff;
+	--pr-color: #eaf4f4;
 	--second-color: #0a0a0a;
 	--cubicbz: cubic-bezier(.9, 0, .1, 1);
 	--fz-big: 60px;
@@ -9,8 +9,9 @@
 
 * {
 	box-sizing: border-box;
-	font-family: 'Syne', sans-serif;
-	font-weight: 800;
+	font-family: 'Berani', sans-serif;
+	letter-spacing: 10px;
+	font-weight: 300;
 	margin: 0;
 	padding: 0;
 	font-feature-settings: 'pnum' on, 'lnum' on;
@@ -18,7 +19,10 @@
 
 body {
 	background: var(--second-color);
+	font-family:'VerveAlternate';
 }
+
+@font-face { font-family:'Berani' ; src: url(Berani.ttf); }
 
 /******************************************/
 section {
@@ -82,7 +86,7 @@ section {
 	margin-right: 15px;
 	text-transform: uppercase;
 	color: var(--pr-color);
-	color: #9e9e9e;
+	color: #dedbd2;
 	font-size: 35px;
 }
 
@@ -159,7 +163,7 @@ section {
 	display: inline-block;
 	width: 130px;
 	height: 130px;
-	border: 1px solid #4b4b4b;
+	border: 3px solid #cce3de;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -189,7 +193,7 @@ section {
 .about__p {
 	line-height: 1.4;
 	font-size: 20px;
-	color: #4b4b4b;
+	color: #dedbd2;
 }
 
 .about__img {
@@ -228,7 +232,7 @@ section {
 
 .benefits__p {
 	font-size: 20px;
-	color: #4b4b4b;
+	color: #dedbd2;
 }
 
 /* work ********/
@@ -276,7 +280,7 @@ section {
 .serv__item {
 	position: relative;
 	padding: 40px 0;
-	border-bottom: 1px solid #2f2e2e;
+	border-bottom: 1px solid #cce3de;
 }
 
 .serv__item-arrow {
@@ -299,7 +303,7 @@ section {
 
 .serv__item-txt {
 	font-size: 50px;
-	color: #4b4b4b;
+	color: var(--pr-color);
 	text-transform: uppercase;
 }
 
